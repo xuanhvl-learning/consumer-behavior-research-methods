@@ -21,16 +21,16 @@ This repository provides end-to-end guidance for conducting consumer behavior re
 consumer-behavior-research-methods/
 │
 ├── 📂 qualitative-methods/          # Qualitative research approaches
-│   ├── heuristics-research/
-│   ├── focus-groups/
-│   ├── ethnographic-studies/
-│   └── in-depth-interviews/
+│   ├── 
+│   ├── b
+│   ├── c
+│   └── d
 │
 ├── 📂 quantitative-methods/         # Quantitative research approaches
-│   ├── price-elasticity/
-│   ├── conjoint-analysis/
-│   ├── choice-modeling/
-│   └── regression-analysis/
+│   ├── a
+│   ├── b
+│   ├── c
+│   └── d
 │
 ├── 📂 mixed-methods/                # Combining approaches
 │
