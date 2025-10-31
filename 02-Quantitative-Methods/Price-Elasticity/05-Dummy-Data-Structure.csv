@@ -1,0 +1,6 @@
+respondent_id,age,gender,income_bracket,variable_1,variable_2,variable_3,outcome_variable,timestamp
+R001,25,Female,10-20M,4,5,3,7.5,2024-01-15 10:30:00
+R002,32,Male,20-30M,5,4,4,8.2,2024-01-15 11:15:00
+R003,28,Female,5-10M,3,3,2,5.1,2024-01-15 14:20:00
+R004,45,Male,>30M,5,5,5,9.0,2024-01-16 09:00:00
+R005,29,Other,10-20M,4,4,3,6.8,2024-01-16 10:45:00
