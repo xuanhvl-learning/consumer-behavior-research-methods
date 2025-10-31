@@ -47,3 +47,121 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# ==============================================================================
+# Papers & Documents (Keep repository lightweight - use links instead!)
+# ==============================================================================
+
+# PDF files (papers, books, reports)
+*.pdf
+!*-template.pdf  # Allow template PDFs if needed
+
+# Document files
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# Ebook formats
+*.epub
+*.mobi
+
+# Large data files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Personal library file (if created)
+MY_LIBRARY.md
+my-library/
+
+# ==============================================================================
+# Data & Output Files
+# ==============================================================================
+
+# Large datasets
+*.csv.gz
+data/raw/*.csv  # Except dummy/example data
+data/processed/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Output/results
+results/*.csv
+results/*.xlsx
+output/
+exports/
+
+# ==============================================================================
+# OS & Editor Files
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# ==============================================================================
+# Environment & Credentials
+# ==============================================================================
+
+# API keys & secrets
+.env
+.env.local
+secrets/
+credentials/
+*.key
+*.pem
+
+# Config files with sensitive data
+config/local.yml
+config/production.yml
+
+# ==============================================================================
+# Temporary & Cache Files
+# ==============================================================================
+
+# General temp
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Python (if using Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Node (if using Node tools)
+node_modules/
+npm-debug.log*
