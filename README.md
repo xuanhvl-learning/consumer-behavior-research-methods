@@ -52,6 +52,12 @@ consumer-behavior-research-methods/
 │   ├── Conjoint-Analysis/           # Phân tích kết hợp
 │   └── A-B-Testing/                 # Kiểm thử A/B
 │
+├── resources/                       # 📚 Tài nguyên tham khảo tổng hợp
+│   └── references/                  # Papers, books, bibliography
+│       ├── core-papers/             # Papers nền tảng kinh điển
+│       ├── recent-papers/           # Papers mới nhất (2023-2025)
+│       └── bibliography.bib         # BibTeX citations
+│
 ├── templates/                       # Templates cho phương pháp mới
 │   └── method-template/
 │
@@ -187,6 +193,37 @@ CÂU HỎI NGHIÊN CỨU CỦA BẠN LÀ GÌ?
 
 ---
 
+## 📚 Tài Nguyên Tham Khảo (Resources)
+
+Repository này có **central hub** cho tất cả tài liệu tham khảo và papers!
+
+### 📂 [resources/references/](resources/)
+
+#### 📖 Papers Nền Tảng
+[**core-papers/foundational.md**](resources/references/core-papers/foundational.md)
+- Sách giáo khoa kinh điển (Kotler, Hawkins, etc.)
+- Papers seminal (Kahneman, Green, Tellis)
+- Behavioral economics foundations
+
+#### 🔬 Papers Mới Nhất (2023-2025)
+- [**Qualitative**](resources/references/recent-papers/qualitative/latest-qualitative.md) - AI integration, metaverse ethnography, mobile methods
+- [**Quantitative**](resources/references/recent-papers/quantitative/latest-quantitative.md) - Causal ML, LLMs, advanced analytics
+
+#### 📖 Bibliography
+[**bibliography.bib**](resources/references/bibliography.bib) - 50+ citations trong BibTeX format (dễ import vào Zotero/Mendeley)
+
+### 💡 Tại Sao Chỉ Có Links?
+
+**Repository này KHÔNG lưu trữ PDFs** - chỉ có links đến papers để:
+- ✅ **Tiết kiệm dung lượng** - Repo gọn nhẹ, clone nhanh
+- ✅ **Luôn updated** - Links đến latest versions
+- ✅ **Copyright compliance** - Tôn trọng tác giả
+- ✅ **Online-first** - Accessible anywhere
+
+📥 **Xem [resources/README.md](resources/README.md)** để biết cách truy cập papers!
+
+---
+
 ## 🤝 Đóng Góp
 
 Chúng tôi hoan nghênh mọi đóng góp! Xem [CONTRIBUTING.md](docs/CONTRIBUTING.md) để biết chi tiết.
@@ -224,10 +261,13 @@ Cảm ơn cộng đồng nghiên cứu hành vi người tiêu dùng và các ng
 ## 📈 Roadmap
 
 - [x] Khởi tạo cấu trúc repository
+- [x] Tạo central references hub (resources/)
+- [x] Tổng hợp 50+ papers nền tảng và mới nhất
 - [ ] Hoàn thành 3 phương pháp Qualitative
 - [ ] Hoàn thành 3 phương pháp Quantitative
 - [ ] Thêm video tutorials
 - [ ] Thêm case studies thực tế
+- [ ] Quarterly updates cho recent papers
 - [ ] Xây dựng web interface
 
 ---
